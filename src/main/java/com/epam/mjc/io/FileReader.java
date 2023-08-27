@@ -32,11 +32,5 @@ public class FileReader {
         return new Profile(result.get("Name").trim(), Integer.parseInt(result.get("Age").trim()), result.get("Email").trim(), Long.parseLong(result.get("Phone").trim()));
     }
 
-//    public static void main(String[] args) {
-//        FileReader fileReader = new FileReader();
-//        System.out.println(fileReader.getDataFromFile(new File("src/main/resources/Profile.txt")));
-//    }
-
-    //https://mkyong.com/java/how-to-read-file-in-java-fileinputstream/
 }
 
